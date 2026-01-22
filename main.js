@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer')
-const {S3Client, PutObjectCommand, Bucket$} =  require('@aws-sdk/client-s3')
+const {S3Client, PutObjectCommand} =  require('@aws-sdk/client-s3')
 const app = express();
 
 
